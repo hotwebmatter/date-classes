@@ -100,5 +100,9 @@ namespace date_classes
             result += String.Format(" {0}, {1}", day, year);
             return result;
         }
+        public override string ToString()
+        {
+            return String.Format("{0}/{1}/{2}", month, day, year);
+        }
     }
 }
