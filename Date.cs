@@ -10,7 +10,6 @@ namespace date_classes
         private int year,
                     month,
                     day;
-        private string monthName;
         // properties acting as mutators and accessors
         public int Year
         {
