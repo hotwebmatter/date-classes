@@ -95,7 +95,7 @@ namespace date_classes
                     break;
                 default:
                     result += "Error: Month value out of range\n";
-                    break;
+                    return result;
             }
             result += String.Format(" {0}, {1}", day, year);
             return result;
