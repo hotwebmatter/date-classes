@@ -7,7 +7,9 @@ namespace date_classes
     {
         static void Main(string[] args)
         {
-            WriteLine("Hello World!");
+            Date myDate = new Date(2019, 12, 26);
+            WriteLine(myDate.MonthName());
+            WriteLine(myDate.ToString());
         }
     }
 }
