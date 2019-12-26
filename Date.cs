@@ -11,5 +11,39 @@ namespace date_classes
                     month,
                     day;
         private string monthName;
+        // properties acting as mutators and accessors
+        public int Year
+        {
+            set
+            {
+                Year = value;
+            }
+            get
+            {
+                return year;
+            }
+        }
+        public int Month
+        {
+            set
+            {
+                Month = value;
+            }
+            get
+            {
+                return month;
+            }
+        }
+        public int Day
+        {
+            set
+            {
+                Day = value;
+            }
+            get
+            {
+                return day;
+            }
+        }
     }
 }
